@@ -1,0 +1,14 @@
+{
+  "item.firstmod.ilan" : "Ilan",
+  "item.firstmod.gilbar" : "Gilbar",
+  "item.firstmod.kaki" : "Kaki",
+  "item.firstmod.shoval" : "Shoval",
+  "item.firstmod.ruby" : "Ruby",
+  "item.firstmod.lior" : "Lior",
+  "item.firstmod.vladi" : "Vladi",
+
+  "block.firstmod.ruby_block" : "Block of Ruby",
+  "block.firstmod.alon_block" : "Alon Block",
+
+  "itemGroup.firstmodItems" : " FirstMod Items"
+}

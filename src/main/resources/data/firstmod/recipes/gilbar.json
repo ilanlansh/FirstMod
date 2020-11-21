@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "firstmod:kaki"
+        }
+    },
+    "result": {
+        "item": "firstmod:gilbar",
+        "count": 1
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "ggg",
+    "NNN"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:apple"
+    },
+    "g": {
+      "item": "minecraft:gold_ingot"
+    },
+    "N": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "firstmod:vladi",
+    "count": 1
+  }
+}

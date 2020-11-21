@@ -1,3 +1,11 @@
+This is a fun little project I decided to take on myself after learning Java.
+I always wanted to create a Minecraft mod!
+This is just a simple mod I am working on by following TechnoVision's Forge modding tutorial on YouTube.
+
+
+
+Now here's the boring forge stuff:
+
 -------------------------------------------
 Source installation information for modders
 -------------------------------------------

@@ -1,10 +1,12 @@
 
-This is a mod I am working on currently by following TechnoVision's Forge modding tutorial on YouTube.
-I am developing this mid just for fun with no clear goal.
-I plan to use this mod as a practice or framework for future mods.
+Simple Minecraft 1.16.4 Forge mod made by ilanlansh.
+Made using TechnoVision's Forge modding tutorial on YouTube.
+This mod adds simple items and blocks and was made just for fun with no goal.
+I plan to use this mod as a practice or as a framework for future mods I will be working on.
 
 
-Now here's the boring forge stuff:
+
+Now the boring forge stuff:
 
 -------------------------------------------
 Source installation information for modders

@@ -1,10 +1,12 @@
-This is a fun little project I decided to take on myself after learning Java.
-I always wanted to create a Minecraft mod!
-This is just a simple mod I am working on by following TechnoVision's Forge modding tutorial on YouTube.
+
+Simple Minecraft 1.16.4 Forge mod made by ilanlansh.
+Made using TechnoVision's Forge modding tutorial on YouTube.
+This mod adds simple items and blocks and was made just for fun with no goal.
+I plan to use this mod as a practice or as a framework for future mods I will be working on.
 
 
 
-Now here's the boring forge stuff:
+Now the boring forge stuff:
 
 -------------------------------------------
 Source installation information for modders

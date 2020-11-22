@@ -9,7 +9,7 @@ public class AlonBlockBlock extends Block
 {
     public AlonBlockBlock() {
         super(Block.Properties.create(Material.ROCK)
-                .hardnessAndResistance(50.0f,-1.0f)
+                .hardnessAndResistance(50.0f,1200.0f)
                 .sound(SoundType.STONE)
                 .harvestLevel(3)
                 .harvestTool(ToolType.PICKAXE)

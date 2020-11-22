@@ -16,7 +16,7 @@ import org.apache.logging.log4j.Logger;
  * Simple Minecraft 1.16.4 Forge mod made by ilanlansh.
  * Made using TechnoVision's Forge modding tutorial on YouTube.
  * This mod adds simple items and blocks and was made just for fun with no goal.
- * I plan to use this mod as a practice or as a framework for future mods I will be working on
+ * I plan to use this mod as a practice or as a framework for future mods I will be working on.
  *
  */
 

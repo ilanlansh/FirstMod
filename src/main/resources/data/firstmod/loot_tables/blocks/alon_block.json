@@ -42,11 +42,11 @@
                   "enchantment": "minecraft:fortune",
                   "formula": "minecraft:uniform_bonus_count",
                   "parameters": {
-                    "bonusMultiplier": 2
+                    "bonusMultiplier": 1
                   }
                 }
               ],
-              "name": "firstmod:alon_block"
+              "name": "firstmod:kaki"
             }
           ]
         }

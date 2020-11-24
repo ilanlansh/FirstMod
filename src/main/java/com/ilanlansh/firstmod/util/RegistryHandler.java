@@ -4,6 +4,7 @@ import com.ilanlansh.firstmod.FirstMod;
 import com.ilanlansh.firstmod.blocks.AlonBlockBlock;
 import com.ilanlansh.firstmod.blocks.BlockItemBase;
 import com.ilanlansh.firstmod.blocks.RubyBlockBlock;
+import com.ilanlansh.firstmod.blocks.RubyOreBlock;
 import com.ilanlansh.firstmod.items.ItemBase;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -35,8 +36,10 @@ public class RegistryHandler
     // Blocks
     public static final RegistryObject<Block> RUBY_BLOCK_BLOCK = BLOCKS.register("ruby_block", RubyBlockBlock::new);
     public static final RegistryObject<Block> ALON_BLOCK_BLOCK = BLOCKS.register("alon_block", AlonBlockBlock::new);
+    public static final RegistryObject<Block> RUBY_ORE_BLOCK = BLOCKS.register("ruby_ore", RubyOreBlock::new);
 
     // Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK_BLOCK.get()));
     public static final RegistryObject<Item> ALON_BLOCK_ITEM = ITEMS.register("alon_block", () -> new BlockItemBase(ALON_BLOCK_BLOCK.get()));
+    public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE_BLOCK.get()));
 }

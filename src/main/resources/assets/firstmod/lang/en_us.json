@@ -9,6 +9,7 @@
 
   "block.firstmod.ruby_block" : "Block of Ruby",
   "block.firstmod.alon_block" : "Alon Block",
+  "block.firstmod.ruby_ore" : "Ruby Ore",
 
   "itemGroup.firstmodItems" : " FirstMod Items"
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "minecraft:block/the_kaki_block_top",
+    "bottom": "minecraft:block/the_kaki_block_bottom",
+    "side": "minecraft:block/the_kaki_block_side"
+  }
+}

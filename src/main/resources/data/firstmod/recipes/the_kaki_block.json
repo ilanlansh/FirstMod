@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "firstmod:persimmon"
+        },
+        {
+            "item": "firstmod:persimmon"
+        },
+        {
+            "item": "firstmod:persimmon"
+        },
+        {
+            "item": "firstmod:persimmon"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "firstmod:kaki"
+        },
+        {
+            "item": "firstmod:kaki"
+        },
+        {
+            "item": "firstmod:kaki"
+        },
+        {
+            "item": "firstmod:kaki"
+        }
+    ],
+    "result": {
+        "item": "firstmod:the_kaki_block",
+        "count": 1
+    }
+}

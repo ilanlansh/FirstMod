@@ -41,4 +41,5 @@ public class RegistryHandler
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK_BLOCK.get()));
     public static final RegistryObject<Item> ALON_BLOCK_ITEM = ITEMS.register("alon_block", () -> new BlockItemBase(ALON_BLOCK_BLOCK.get()));
     public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE_BLOCK.get()));
+    public static final RegistryObject<Item> THE_KAKI_BLOCK_ITEM = ITEMS.register("the_kaki_block", () -> new BlockItemBase(THE_KAKI_BLOCK_BLOCK.get()));
 }

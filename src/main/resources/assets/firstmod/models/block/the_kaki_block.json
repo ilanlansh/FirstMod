@@ -1,8 +1,8 @@
 {
   "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "top": "minecraft:block/the_kaki_block_top",
-    "bottom": "minecraft:block/the_kaki_block_bottom",
-    "side": "minecraft:block/the_kaki_block_side"
+    "top": "firstmod:blocks/the_kaki_block_top",
+    "bottom": "firstmod:blocks/the_kaki_block_bottom",
+    "side": "firstmod:blocks/the_kaki_block_side"
   }
 }

@@ -24,8 +24,8 @@ public class RegistryHandler
     // Items
     public static final RegistryObject<Item> ILAN = ITEMS.register("ilan", ItemBase::new);
     public static final RegistryObject<Item> GILBAR = ITEMS.register("gilbar", ItemBase::new);
-    public static final RegistryObject<Item> KAKI = ITEMS.register("kaki", ItemBase::new);
     public static final RegistryObject<Item> SHOVAL = ITEMS.register("shoval", ItemBase::new);
+    public static final RegistryObject<Item> KAKI = ITEMS.register("kaki", ItemBase::new);
     public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
     public static final RegistryObject<Item> LIOR = ITEMS.register("lior", ItemBase::new);
     public static final RegistryObject<Item> VLADI = ITEMS.register("vladi", ItemBase::new);
@@ -42,4 +42,5 @@ public class RegistryHandler
     public static final RegistryObject<Item> ALON_BLOCK_ITEM = ITEMS.register("alon_block", () -> new BlockItemBase(ALON_BLOCK_BLOCK.get()));
     public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE_BLOCK.get()));
     public static final RegistryObject<Item> THE_KAKI_BLOCK_ITEM = ITEMS.register("the_kaki_block", () -> new BlockItemBase(THE_KAKI_BLOCK_BLOCK.get()));
+
 }

@@ -12,7 +12,7 @@ public class DavidBlockBlock extends Block
         super(Block.Properties.create(Material.IRON)
                 .setLightLevel(value -> 5)
                 .harvestTool(ToolType.PICKAXE)
-                .harvestLevel(4)
+                .harvestLevel(3)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(60.0f, 2000.0f)
         );

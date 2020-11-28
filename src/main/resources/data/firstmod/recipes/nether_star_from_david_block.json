@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nsn",
+    "sgs",
+    "nsn"
+  ],
+  "key": {
+    "n": {
+      "item": "firstmod:david_block"
+    },
+    "s": {
+      "item": "minecraft:sea_lantern"
+    },
+    "g": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_star",
+    "count": 1
+  }
+}

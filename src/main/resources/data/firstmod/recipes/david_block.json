@@ -7,13 +7,13 @@
   ],
   "key": {
     "n": {
-      "item": "firstmod:netherite_ingot"
+      "item": "minecraft:netherite_ingot"
     },
     "s": {
-      "item": "firstmod:sea_lantern"
+      "item": "minecraft:sea_lantern"
     },
     "g": {
-      "item": "firstmod:golden_apple"
+      "item": "minecraft:golden_apple"
     }
   },
   "result": {

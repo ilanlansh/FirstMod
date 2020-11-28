@@ -36,11 +36,12 @@ public class RegistryHandler
     public static final RegistryObject<Block> ALON_BLOCK_BLOCK = BLOCKS.register("alon_block", AlonBlockBlock::new);
     public static final RegistryObject<Block> RUBY_ORE_BLOCK = BLOCKS.register("ruby_ore", RubyOreBlock::new);
     public static final RegistryObject<Block> THE_KAKI_BLOCK_BLOCK = BLOCKS.register("the_kaki_block", TheKakiBlockBlock::new);
+    public static final RegistryObject<Block> DAVID_BLOCK_BLOCK = BLOCKS.register("david_block", DavidBlockBlock::new);
 
     // Block Items
     public static final RegistryObject<Item> RUBY_BLOCK_ITEM = ITEMS.register("ruby_block", () -> new BlockItemBase(RUBY_BLOCK_BLOCK.get()));
     public static final RegistryObject<Item> ALON_BLOCK_ITEM = ITEMS.register("alon_block", () -> new BlockItemBase(ALON_BLOCK_BLOCK.get()));
     public static final RegistryObject<Item> RUBY_ORE_ITEM = ITEMS.register("ruby_ore", () -> new BlockItemBase(RUBY_ORE_BLOCK.get()));
     public static final RegistryObject<Item> THE_KAKI_BLOCK_ITEM = ITEMS.register("the_kaki_block", () -> new BlockItemBase(THE_KAKI_BLOCK_BLOCK.get()));
-
+    public static final RegistryObject<Item> DAVID_BLOCK_ITEM = ITEMS.register("david_block", () -> new BlockItemBase(DAVID_BLOCK_BLOCK.get()));
 }

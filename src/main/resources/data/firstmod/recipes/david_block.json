@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nsn",
+    "sgs",
+    "nsn"
+  ],
+  "key": {
+    "n": {
+      "item": "firstmod:netherite_ingot"
+    },
+    "s": {
+      "item": "firstmod:sea_lantern"
+    },
+    "g": {
+      "item": "firstmod:golden_apple"
+    }
+  },
+  "result": {
+    "item": "firstmod:david_block",
+    "count": 1
+  }
+}

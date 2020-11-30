@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "tag": "firstmod:ruby_gear"
+  },
+  "result": "firstmod:ruby_nugget",
+  "experience": 0.1,
+  "cookingtime": 100
+}

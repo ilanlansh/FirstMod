@@ -30,6 +30,7 @@ public class RegistryHandler
     public static final RegistryObject<Item> LIOR = ITEMS.register("lior", ItemBase::new);
     public static final RegistryObject<Item> VLADI = ITEMS.register("vladi", ItemBase::new);
     public static final RegistryObject<Item> PERSIMMON = ITEMS.register("persimmon", ItemBase::new);
+    public static final RegistryObject<Item> RUBY_NUGGET = ITEMS.register("ruby_nugget", ItemBase::new);
 
     // Blocks
     public static final RegistryObject<Block> RUBY_BLOCK_BLOCK = BLOCKS.register("ruby_block", RubyBlockBlock::new);

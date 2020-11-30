@@ -1,0 +1,14 @@
+{
+  "replace": "false",
+  "values": [
+    "firstmod:ruby_helmet",
+    "firstmod:ruby_chestplate",
+    "firstmod:ruby_leggings",
+    "firstmod:ruby_boots",
+    "firstmod:ruby_sword",
+    "firstmod:ruby_pickaxe",
+    "firstmod:ruby_axe",
+    "firstmod:ruby_shovel",
+    "firstmod:ruby_hoe"
+  ]
+}

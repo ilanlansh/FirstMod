@@ -3,8 +3,10 @@ package com.ilanlansh.firstmod.util;
 import com.ilanlansh.firstmod.FirstMod;
 import com.ilanlansh.firstmod.blocks.*;
 import com.ilanlansh.firstmod.items.ItemBase;
+import com.ilanlansh.firstmod.tools.FirstmodItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -31,6 +33,11 @@ public class RegistryHandler
     public static final RegistryObject<Item> VLADI = ITEMS.register("vladi", ItemBase::new);
     public static final RegistryObject<Item> PERSIMMON = ITEMS.register("persimmon", ItemBase::new);
     public static final RegistryObject<Item> RUBY_NUGGET = ITEMS.register("ruby_nugget", ItemBase::new);
+
+    // Tools
+    public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
+            new SwordItem(FirstmodItemTier.RUBY, 2, -2.4f, new Item.Properties().group(FirstMod.TAB))
+    );
 
     // Blocks
     public static final RegistryObject<Block> RUBY_BLOCK_BLOCK = BLOCKS.register("ruby_block", RubyBlockBlock::new);

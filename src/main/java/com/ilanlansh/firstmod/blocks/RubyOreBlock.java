@@ -12,7 +12,7 @@ public class RubyOreBlock extends Block
         super(Block.Properties.create(Material.ROCK)
                 .hardnessAndResistance(3.0f,3.0f)
                 .sound(SoundType.STONE)
-                .harvestLevel(2)
+                .harvestLevel(1)
                 .harvestTool(ToolType.PICKAXE)
         );
     }

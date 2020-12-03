@@ -1,21 +1,29 @@
 {
-  "item.firstmod.ilan" : "Ilan",
-  "item.firstmod.gilbar" : "Gilbar",
-  "item.firstmod.kaki" : "Kaki",
-  "item.firstmod.shoval" : "Shoval",
-  "item.firstmod.ruby" : "Ruby",
-  "item.firstmod.lior" : "Lior",
-  "item.firstmod.vladi" : "Vladi",
-  "item.firstmod.persimmon" : "Persimmon",
+  "item.firstmod.ilan": "Ilan",
+  "item.firstmod.gilbar": "Gilbar",
+  "item.firstmod.kaki": "Kaki",
+  "item.firstmod.shoval": "Shoval",
+  "item.firstmod.ruby": "Ruby",
+  "item.firstmod.lior": "Lior",
+  "item.firstmod.vladi": "Vladi",
+  "item.firstmod.persimmon": "Persimmon",
   "item.firstmod.ruby_nugget": "Ruby Nugget",
 
   "item.firstmod.ruby_sword": "Ruby Sword",
+  "item.firstmod.ruby_axe": "Ruby Axe",
+  "item.firstmod.ruby_pickaxe": "Ruby Pickaxe",
+  "item.firstmod.ruby_shovel": "Ruby Shovel",
+  "item.firstmod.ruby_hoe": "Ruby Hoe",
+  "item.firstmod.ruby_helmet": "Ruby Helmet",
+  "item.firstmod.ruby_chestplate": "Ruby Chesplate",
+  "item.firstmod.ruby_leggings": "Ruby Leggings",
+  "item.firstmod.ruby_boots": "Ruby Boots",
 
-  "block.firstmod.ruby_block" : "Block of Ruby",
-  "block.firstmod.alon_block" : "Alon Block",
-  "block.firstmod.ruby_ore" : "Ruby Ore",
-  "block.firstmod.the_kaki_block" : "The Kaki Block",
-  "block.firstmod.david_block" : "David Block",
+  "block.firstmod.ruby_block": "Block of Ruby",
+  "block.firstmod.alon_block": "Alon Block",
+  "block.firstmod.ruby_ore": "Ruby Ore",
+  "block.firstmod.the_kaki_block": "The Kaki Block",
+  "block.firstmod.david_block": "David Block",
 
-  "itemGroup.firstmodItems" : " FirstMod Items"
+  "itemGroup.firstmodItems": " FirstMod Items"
 }

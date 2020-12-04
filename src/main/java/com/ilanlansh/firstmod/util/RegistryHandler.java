@@ -5,8 +5,7 @@ import com.ilanlansh.firstmod.blocks.*;
 import com.ilanlansh.firstmod.items.ItemBase;
 import com.ilanlansh.firstmod.tools.FirstmodItemTier;
 import net.minecraft.block.Block;
-import net.minecraft.item.Item;
-import net.minecraft.item.SwordItem;
+import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.DeferredRegister;
@@ -37,6 +36,18 @@ public class RegistryHandler
     // Tools
     public static final RegistryObject<SwordItem> RUBY_SWORD = ITEMS.register("ruby_sword", () ->
             new SwordItem(FirstmodItemTier.RUBY, 2, -2.4f, new Item.Properties().group(FirstMod.TAB))
+    );
+    public static final RegistryObject<PickaxeItem> RUBY_PICKAXE = ITEMS.register("ruby_pickaxe", () ->
+            new PickaxeItem(FirstmodItemTier.RUBY, 0, -2.8f, new Item.Properties().group(FirstMod.TAB))
+    );
+    public static final RegistryObject<AxeItem> RUBY_AXE = ITEMS.register("ruby_axe", () ->
+            new AxeItem(FirstmodItemTier.RUBY, 5, -3.0f, new Item.Properties().group(FirstMod.TAB))
+    );
+    public static final RegistryObject<ShovelItem> RUBY_SHOVEL = ITEMS.register("ruby_shovel", () ->
+            new ShovelItem(FirstmodItemTier.RUBY, 1, -3.0f, new Item.Properties().group(FirstMod.TAB))
+    );
+    public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () ->
+            new HoeItem(FirstmodItemTier.RUBY, 0, -1.0f, new Item.Properties().group(FirstMod.TAB))
     );
 
     // Blocks

@@ -47,7 +47,7 @@ public class RegistryHandler
             new ShovelItem(FirstmodItemTier.RUBY, 1, -3.0f, new Item.Properties().group(FirstMod.TAB))
     );
     public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () ->
-            new HoeItem(FirstmodItemTier.RUBY, 0, -1.0f, new Item.Properties().group(FirstMod.TAB))
+            new HoeItem(FirstmodItemTier.RUBY, -3, 0, new Item.Properties().group(FirstMod.TAB))
     );
 
     // Blocks

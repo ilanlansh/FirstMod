@@ -10,7 +10,7 @@ public enum FirstmodItemTier implements IItemTier
 {
     RUBY(2, 768, 7.0f, 3.0f, 15, () ->
     {
-        return Ingredient.fromItems(RegistryHandler.RUBY_SWORD.get());
+        return Ingredient.fromItems(RegistryHandler.RUBY.get());
     });
 
     private final int harvestLevel;

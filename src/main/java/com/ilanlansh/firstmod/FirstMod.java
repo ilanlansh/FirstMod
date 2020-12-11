@@ -1,10 +1,8 @@
 package com.ilanlansh.firstmod;
 
 import com.ilanlansh.firstmod.util.RegistryHandler;
-import net.minecraft.block.SoundType;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
-import net.minecraft.util.SoundEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
@@ -49,6 +47,4 @@ public class FirstMod {
             return ICON;
         }
     };
-
-    // public static final SoundType ALONBLOCK = new SoundType();
 }

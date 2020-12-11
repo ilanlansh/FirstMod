@@ -1,10 +1,12 @@
 package com.ilanlansh.firstmod.util;
 
 import com.ilanlansh.firstmod.FirstMod;
+import com.ilanlansh.firstmod.armor.FirstmodArmorMaterial;
 import com.ilanlansh.firstmod.blocks.*;
 import com.ilanlansh.firstmod.items.ItemBase;
 import com.ilanlansh.firstmod.tools.FirstmodItemTier;
 import net.minecraft.block.Block;
+import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.item.*;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -48,6 +50,20 @@ public class RegistryHandler
     );
     public static final RegistryObject<HoeItem> RUBY_HOE = ITEMS.register("ruby_hoe", () ->
             new HoeItem(FirstmodItemTier.RUBY, -3, 0, new Item.Properties().group(FirstMod.TAB))
+    );
+
+    // Armor
+    public static final RegistryObject<ArmorItem> RUBY_HELMET = ITEMS.register("ruby_helmet", () ->
+            new ArmorItem(FirstmodArmorMaterial.RUBY, EquipmentSlotType.HEAD, new Item.Properties().group(FirstMod.TAB))
+    );
+    public static final RegistryObject<ArmorItem> RUBY_CHESTPLATE = ITEMS.register("ruby_chestplate", () ->
+            new ArmorItem(FirstmodArmorMaterial.RUBY, EquipmentSlotType.CHEST, new Item.Properties().group(FirstMod.TAB))
+    );
+    public static final RegistryObject<ArmorItem> RUBY_LEGGINGS = ITEMS.register("ruby_leggings", () ->
+            new ArmorItem(FirstmodArmorMaterial.RUBY, EquipmentSlotType.LEGS, new Item.Properties().group(FirstMod.TAB))
+    );
+    public static final RegistryObject<ArmorItem> RUBY_BOOTS = ITEMS.register("ruby_boots", () ->
+            new ArmorItem(FirstmodArmorMaterial.RUBY, EquipmentSlotType.FEET, new Item.Properties().group(FirstMod.TAB))
     );
 
     // Blocks

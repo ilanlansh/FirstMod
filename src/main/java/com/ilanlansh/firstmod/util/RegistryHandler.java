@@ -4,6 +4,7 @@ import com.ilanlansh.firstmod.FirstMod;
 import com.ilanlansh.firstmod.armor.FirstmodArmorMaterial;
 import com.ilanlansh.firstmod.blocks.*;
 import com.ilanlansh.firstmod.items.ItemBase;
+import com.ilanlansh.firstmod.items.Persimmon;
 import com.ilanlansh.firstmod.tools.FirstmodItemTier;
 import net.minecraft.block.Block;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -29,10 +30,10 @@ public class RegistryHandler
     public static final RegistryObject<Item> GILBAR = ITEMS.register("gilbar", ItemBase::new);
     public static final RegistryObject<Item> SHOVAL = ITEMS.register("shoval", ItemBase::new);
     public static final RegistryObject<Item> KAKI = ITEMS.register("kaki", ItemBase::new);
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
     public static final RegistryObject<Item> LIOR = ITEMS.register("lior", ItemBase::new);
     public static final RegistryObject<Item> VLADI = ITEMS.register("vladi", ItemBase::new);
-    public static final RegistryObject<Item> PERSIMMON = ITEMS.register("persimmon", ItemBase::new);
+    public static final RegistryObject<Persimmon> PERSIMMON = ITEMS.register("persimmon", Persimmon::new);
+    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
     public static final RegistryObject<Item> RUBY_NUGGET = ITEMS.register("ruby_nugget", ItemBase::new);
 
     // Tools

@@ -15,6 +15,7 @@ public class DavidBlockBlock extends Block
                 .harvestLevel(3)
                 .sound(SoundType.METAL)
                 .hardnessAndResistance(60.0f, 2000.0f)
+                .setRequiresTool()
         );
     }
 }

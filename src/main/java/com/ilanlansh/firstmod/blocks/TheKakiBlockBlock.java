@@ -14,6 +14,7 @@ public class TheKakiBlockBlock extends Block
                 .harvestLevel(0)
                 .sound(SoundType.WOOD)
                 .hardnessAndResistance(2.5f,2.5f)
+                .setRequiresTool()
         );
     }
 }

@@ -15,6 +15,7 @@ public class AlonBlockBlock extends Block
                 .harvestLevel(3)
                 .harvestTool(ToolType.PICKAXE)
                 .setLightLevel(value -> 15)
+                .setRequiresTool()
         );
     }
 }
